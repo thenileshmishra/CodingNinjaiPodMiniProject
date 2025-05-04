@@ -27,35 +27,18 @@ class Wheel extends React.Component {
           </div>
 
           <div className="controll" id="forward">
-            <i style={{ color: theme }} className="fas fa-fast-forward">
-              {" "}
-              <img
-                className="logo"
-                src="https://cdn-icons-png.flaticon.com/512/659/659915.png"
-                alt=""
-              />
-            </i>
+            <i style={{ color: theme }} className="fas fa-fast-forward"></i>
           </div>
 
           <div className="controll" id="play-pause">
             <div>
-              <i style={{ color: theme }} className="fas fa-play">
-                <img
-                  className="logo"
-                  src="https://cdn-icons-png.flaticon.com/512/3031/3031722.png"
-                />
-              </i>
-              {/* <i style={{color:theme}} className="fas fa-pause"></i> */}
+              <i style={{ color: theme }} className="fas fa-play"></i>
+              <i style={{ color: theme }} className="fas fa-pause"></i>
             </div>
           </div>
 
           <div className="controll" id="reverse">
-            <i style={{ color: theme }} className="fas fa-fast-backward">
-              <img
-                className="logo"
-                src="https://cdn-icons-png.flaticon.com/512/4400/4400526.png"
-              />
-            </i>
+            <i style={{ color: theme }} className="fas fa-fast-backward"></i>
           </div>
         </div>
 
